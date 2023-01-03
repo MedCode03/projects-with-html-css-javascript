@@ -1,0 +1,209 @@
+@font-face{
+    font-family: myfont;
+    src: url(Honey\ Silk.otf);
+       }
+       @font-face{   
+    font-family: fontText;
+    src: url(Garet-Book.otf);
+}
+body{margin: 0px;
+    padding: 0px;}
+
+.container{
+    position: relative;
+    width: auto;
+    
+    height: 1500px;
+    justify-content: center;
+    align-items: center;
+    background:beige;
+    font-family:fontText;
+}
+.header{
+
+    display: flex;
+    height: 10%;
+    width:100%;
+    justify-content: space-between;
+    padding: 20px;
+
+       }
+
+.logo img {
+    width:50px;
+    height:50px ;
+    cursor: pointer;
+
+}
+ .title { 
+
+    font-size: 25px;
+    font-family: myfont;
+}
+.title b {color: forestgreen;}
+ .menu img {
+    width:50px;
+    height:50px ;
+    position: absolute;
+    right: 2px;
+
+ }
+ .main{ 
+    display: flex;
+    height: 500px;
+    padding: 0 10px;
+    background-color: rgb(183, 235, 183);
+   border-radius: 15px;
+   margin-bottom: 29px;
+
+ }
+ .main img {width: 500px;
+margin-right: 10px;
+padding: 20px 10px;
+border-radius: 14px;
+height: 300px;
+}
+.para{ text-align: center;
+font-family:fontText ;
+padding: 15px 0;}
+.web { color:darkgreen ;}
+.btn{border: none;
+color: beige;
+background: #000;
+border-radius: 15px;
+justify-content: center;
+align-items: center;
+width: 100px;
+height: 50px;
+font-family: fontText;
+font-size: 15px ;
+margin-top: 30px;
+
+
+}
+.btn:hover{background: grey;
+    color:black;  }
+   .section {
+        display: flex;
+        width: 20%;
+        position: relative;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .section div {display: block;
+    justify-content: center;
+    text-align: center;
+}
+    .section img{
+width: 300px;
+height: 300px;
+margin-left: 30px;
+border-radius: 10px;
+
+    }
+    .section div button { 
+        border: none;
+color: beige;
+background: rgb(6, 68, 6);
+border-radius: 15px;
+justify-content: center;
+align-items: center;
+width: 120px;
+height: 50px;
+font-family: fontText;
+font-size: 15px ;
+margin-top: 30px;
+    }
+    .section button:hover{
+        background: rgb(176, 171, 171);
+        color: rgb(6, 78, 6);
+        font-weight: bolder;
+
+    } 
+
+
+    .footer{ 
+        text-align: center;
+        width: 100%;
+        height: 300px;
+        background: rgb(42, 42, 207);
+        color: white;
+        border-radius: 15px;
+        margin-top: 15px;
+        padding: 15px;
+        font-family: fontText;
+    }
+    .foot{ text-decoration: none;
+    color:rgb(211, 30, 30);
+    font-size: 20px;
+}
+.list{ 
+    text-align: center;
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    right: 0px;
+    top: 65px;
+    background: rgb(155, 151, 151);
+    
+    font-weight: bolder;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    padding:5px ;
+    cursor: pointer;
+    display: none;
+
+}
+.sup{ width:20px;
+    height: 20px;
+    position: absolute;
+    left: 2px;
+}
+
+h4{color: rgb(54, 54, 208);
+font-family: myfont;}
+.list div { 
+    
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    height: 15px;
+    
+    
+    color: rgb(40, 147, 40);
+}
+
+   .list div   :hover{ 
+    background: rgb(4, 65, 4);
+    color: antiquewhite;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
